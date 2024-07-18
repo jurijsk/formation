@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "ESNext",
+		"outDir": "dist",
+		"lib": [
+			"es6"
+		],
+		"jsx": "preserve",
+		"strict": false,
+		"typeRoots": [
+			"./node_modules/@types",
+			"./node_modules/@figma"
+		]
+	},
+	"include": ["src/**/*"]
+}

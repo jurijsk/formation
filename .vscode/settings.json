@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"**/*.js": false
+	},
+	"search.exclude": {
+		"**/*.js": true
+	},
+	"scm.diffDecorations": "gutter",
+	"editor.selectionHighlight": true
+}

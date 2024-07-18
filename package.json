@@ -1,0 +1,19 @@
+{
+	"name": "formation",
+	"version": "1.0.0",
+	"description": "utils for design systems",
+	"main": "dist/code.js",
+	"scripts": {
+		"build": "tsc -p tsconfig.json -w",
+		"watch": "npm run build -- --watch"
+	},
+	"author": "Jurijs Kovzels",
+	"license": "",
+	"devDependencies": {
+		"@figma/plugin-typings": "^1.90.0",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"figma-plugin-ds": "^1.0.1"
+	}
+}
